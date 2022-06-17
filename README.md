@@ -6,5 +6,4 @@ This project consume a Web Api Core BackEnd from https://typingcodebackend.azure
 
 ## Demo project
 
-Please feel free to try a Demo on GitHub Pages https://joserobertoarias.github.io/TypiCodeFrontEnd/typicodefrontend/
-
+Please try a Demo on GitHub Pages https://joserobertoarias.github.io/TypiCodeFrontEnd/
