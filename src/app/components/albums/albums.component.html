@@ -1,0 +1,19 @@
+<button type="button" class="btn btn-primary" [routerLink]="['/users']" ><< Regresar</button>
+<table class="table">
+    <thead>
+        <tr>
+            <th>User Id</th>
+            <th>Album Id</th>
+            <th>title</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of lstAlbums">
+            <td scope="row">{{item.userId}}</td>
+            <td>{{item.id}}</td>
+            <td>{{item.title}}</td>
+            <td><a [routerLink]="['/photos', item.id, userId]">Photos</a></td>
+        </tr>
+    </tbody>
+</table>

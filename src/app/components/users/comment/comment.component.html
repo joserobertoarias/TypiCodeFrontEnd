@@ -1,0 +1,19 @@
+<button type="button" class="btn btn-primary" [routerLink]="['/posts', userId]" ><< Regresar</button>
+<table class="table">
+    <thead>
+        <tr>
+            <th>postId</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Body</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of lstComments">
+            <td scope="row">{{item.postId}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.email}}</td>
+            <td>{{item.body}}</td>
+        </tr>
+    </tbody>
+</table>
