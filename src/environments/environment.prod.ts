@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  url: "https://typingcodebackend.azurewebsites.net/api"
+  url: "http://joserobertoarias-001-site1.itempurl.com/api"
 };

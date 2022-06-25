@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  url: "https://typingcodebackend.azurewebsites.net/api"
+  url: "http://joserobertoarias-001-site1.itempurl.com/api"
   //url: 'https://localhost:7117/api' //'https://jsonplaceholder.typicode.com'
 };
 
