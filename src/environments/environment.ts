@@ -4,8 +4,9 @@
 
 export const environment = {
   production: false,
-  url: "http://joserobertoarias-001-site1.itempurl.com/api"
-  //url: 'https://localhost:7117/api' //'https://jsonplaceholder.typicode.com'
+  //url: "http://joserobertoarias-001-site1.itempurl.com/api"
+  //url: 'https://localhost:7117/api' 
+  url: 'https://jsonplaceholder.typicode.com'
 };
 
 /*
